@@ -1,0 +1,95 @@
+{
+  "notes":[
+    {
+      "id": "1",
+      "title": "Introduction to Civil Engineering",
+      "type": "Foundational Course",
+      "description": "This course provides an overview of civil engineering principles, covering topics such as structural analysis, materials science, surveying, and construction management. Ideal for beginners entering the field.",
+      "importance": "Foundational",
+      "accuracy": "High",
+      "contents": [
+        "Fundamentals of Civil Engineering",
+        "Structural Analysis Basics",
+        "Materials Science in Civil Engineering",
+        "Surveying Techniques",
+        "Introduction to Construction Management"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Structural Engineering Fundamentals",
+      "type": "Intermediate Course",
+      "description": "Dive deeper into structural engineering with this intermediate course. Explore topics like structural design principles, load analysis, reinforced concrete, and steel structures.",
+      "importance": "Intermediate",
+      "accuracy": "Moderate",
+      "contents": [
+        "Structural Design Principles",
+        "Load Analysis Techniques",
+        "Reinforced Concrete Design",
+        "Steel Structures",
+        "Bridge Design Fundamentals"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Geotechnical Engineering Essentials",
+      "type": "Advanced Course",
+      "description": "Master the fundamentals of geotechnical engineering, including soil mechanics, foundation design, slope stability analysis, and geotechnical instrumentation. Essential for advanced civil engineering professionals.",
+      "importance": "Critical",
+      "accuracy": "High",
+      "contents": [
+        "Soil Mechanics Principles",
+        "Foundation Design Techniques",
+        "Slope Stability Analysis",
+        "Geotechnical Instrumentation",
+        "Earthquake Engineering Concepts"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Transportation Engineering Basics",
+      "type": "Specialized Course",
+      "description": "Explore the essentials of transportation engineering, including traffic flow analysis, pavement design, transportation planning, and public transit systems. Ideal for aspiring transportation engineers.",
+      "importance": "Emerging",
+      "accuracy": "Moderate",
+      "contents": [
+        "Traffic Flow Analysis",
+        "Pavement Design Principles",
+        "Transportation Planning Techniques",
+        "Public Transit Systems",
+        "Intelligent Transportation Systems"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Environmental Engineering Principles",
+      "type": "Specialized Course",
+      "description": "Discover key environmental engineering concepts such as water treatment, air pollution control, waste management, environmental impact assessment, and sustainable design practices.",
+      "importance": "Vital",
+      "accuracy": "High",
+      "contents": [
+        "Water Treatment Processes",
+        "Air Pollution Control Methods",
+        "Waste Management Strategies",
+        "Environmental Impact Assessment",
+        "Sustainable Design Practices"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Construction Management Strategies",
+      "type": "Intermediate Course",
+      "description": "Learn essential construction management techniques, including project planning, budgeting, scheduling, quality control, and safety management. Crucial for effective project execution.",
+      "importance": "Foundational",
+      "accuracy": "Moderate",
+      "contents": [
+        "Project Planning and Scheduling",
+        "Budgeting and Cost Estimation",
+        "Quality Control in Construction",
+        "Safety Management Practices",
+        "Contract Administration"
+      ]
+    }
+  ]
+  
+}

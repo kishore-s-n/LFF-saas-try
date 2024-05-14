@@ -6,7 +6,7 @@ const Homepage = () => {
   return (
     <>
     <Hero title="Learn, share and Educate" subhead="We learn better by teaching others.." />
-    <div className="relative w-full flex p-10 justify-around flex-col md:flex-row">
+    <div className="relative top-[-120px] w-full flex p-10 justify-around flex-col md:flex-row">
         <Homecard 
           title="For Students" 
           subhead="Browse for notes and courses from your friends and start learning today.." 
@@ -22,7 +22,7 @@ const Homepage = () => {
           btnstyle="p-2 rounded-xl text-white font-bold bg-blue-700"
         />
       </div>
-      <Notessection />
+      <Notessection isHome="true" />
     </>
 )
 }

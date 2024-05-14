@@ -1,7 +1,12 @@
+import Notessection from "../Utils/Notessection"
+
+
 
 const Jobspage = () => {
   return (
-    <div className='relative'>Jobspage</div>
+    <section>
+      <Notessection />
+    </section>
   )
 }
 
