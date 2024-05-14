@@ -1,13 +1,24 @@
 /* eslint-disable react/prop-types */
 
+import { useState } from "react";
 import Button from "./Button"
 
 const Noteslisting = (props) => {
-  return (
+  
+  const[showFullDescription,setShowFullDescription]=useState(false) 
+    let description = props.note.description;
+
+  if(!showFullDescription){
+    description=description.substring(0,90)+"...";
+  }
+  
+    return (
     <div className="bg-white p-5 rounded-xl shadow-lg m-5" >
         <h3>{props.note.type}</h3>
         <h1 className="text-xl font-bold pb-10">{props.note.title}</h1>
-        <p className="font-semibold">{props.note.description}</p>
+        <p className="font-semibold">{description}</p>
+        <button className="text-indigo-500 mb-5 hover:text-indigo-600" onClick={()=>setShowFullDescription((prevState)=>(!prevState))}>{showFullDescription? 'Less':'More'}</button>
+
         <p className="text-purple-700 py-5">{props.note.importance}</p>
         <hr />
         <div className="flex justify-between py-5">

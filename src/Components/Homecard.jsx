@@ -8,7 +8,7 @@ const Homecard = (props) => {
             <h1 className="text-3xl lg:text-4xl font-extrabold" >{props.title}</h1>
             <h2 className="mt-2">{props.subhead}</h2>
         </div>
-        <button className={`cursor-pointer p-2 text-white font-extrabold rounded-lg w-max ${props.btncolor}`}>{props.btncontent}</button>
+        <button className={` w-max ${props.btnstyle}`}>{props.btncontent}</button>
     </div>
   )
 }
