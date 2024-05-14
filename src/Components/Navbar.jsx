@@ -11,16 +11,9 @@ const Navbar = () => {
         </div>
         <nav>
             <ul className="flex text-2xl gap-5 text-white">
-                <Button btnstyle="" btncontent="Home"/>
-                <li className="bg-black p-3 rounded-md hover:bg-white hover:text-black hover:duration-300">
-                    Home
-                </li>
-                <li className="bg-black p-3 rounded-md hover:bg-white hover:text-black hover:duration-300">
-                    Notes
-                </li>
-                <li className="bg-black p-3 rounded-md hover:bg-white hover:text-black hover:duration-300">
-                    Courses
-                </li>
+                <Button btnstyle="hover:text-black hover:bg-blue-300 p-2 rounded-xl hover:font-bold hover:duration-500" btncontent="Home"/>
+                <Button btnstyle="hover:text-black hover:bg-blue-300 p-2 rounded-xl hover:font-bold hover:duration-500" btncontent="Notes"/>
+                <Button btnstyle="hover:text-black hover:bg-blue-300 p-2 rounded-xl hover:font-bold hover:duration-500" btncontent="Courses"/>
             </ul>             
         </nav>
     </div>

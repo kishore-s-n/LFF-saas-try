@@ -1,54 +1,92 @@
 [
-    {
-      "id": "1",
-      "title": "Civil Engg Unit 1",
-      "type": "Full-Time",
-      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
-      "location": "Boston, MA",
-      "salary": "$70K - $80K"
-      
-    },
-    {
-      "id": "2",
-      "title": "Civil Engg Unit 2",
-      "type": "Full-Time",
-      "location": "Miami, FL",
-      "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
-      "salary": "$70K - $80K",
-      "name": "Veneer Solutions"
-      
-    },
-    {
-      "id": "3",
-      "title": "Civil Engg Unit 3",
-      "type": "Full-Time",
-      "location": "Brooklyn, NY",
-      "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
-      "salary": "$70K - $80K"
-      
-    },
-    {
-      "id": "4",
-      "title": "Civil Engg Unit 4",
-      "type": "Part-Time",
-      "description": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
-      "location": "Pheonix, AZ",
-      "salary": "$60K - $70K"
-    },
-    {
-      "id": "5",
-      "title": "Civil Engg Unit 5",
-      "type": "Full-Time",
-      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
-      "location": "Atlanta, GA",
-      "salary": "$90K - $100K"
-    },
-    {
-      "id": "6",
-      "title": "Civil Engg Unit 6",
-      "type": "Full-Time",
-      "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
-      "location": "Portland, OR",
-      "salary": "$100K - $110K"
-    }
+  {
+    "id": "1",
+    "title": "Introduction to Civil Engineering",
+    "type": "Foundational Course",
+    "description": "This course provides an overview of civil engineering principles, covering topics such as structural analysis, materials science, surveying, and construction management. Ideal for beginners entering the field.",
+    "importance": "Foundational",
+    "accuracy": "High",
+    "contents": [
+      "Fundamentals of Civil Engineering",
+      "Structural Analysis Basics",
+      "Materials Science in Civil Engineering",
+      "Surveying Techniques",
+      "Introduction to Construction Management"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Structural Engineering Fundamentals",
+    "type": "Intermediate Course",
+    "description": "Dive deeper into structural engineering with this intermediate course. Explore topics like structural design principles, load analysis, reinforced concrete, and steel structures.",
+    "importance": "Intermediate",
+    "accuracy": "Moderate",
+    "contents": [
+      "Structural Design Principles",
+      "Load Analysis Techniques",
+      "Reinforced Concrete Design",
+      "Steel Structures",
+      "Bridge Design Fundamentals"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Geotechnical Engineering Essentials",
+    "type": "Advanced Course",
+    "description": "Master the fundamentals of geotechnical engineering, including soil mechanics, foundation design, slope stability analysis, and geotechnical instrumentation. Essential for advanced civil engineering professionals.",
+    "importance": "Critical",
+    "accuracy": "High",
+    "contents": [
+      "Soil Mechanics Principles",
+      "Foundation Design Techniques",
+      "Slope Stability Analysis",
+      "Geotechnical Instrumentation",
+      "Earthquake Engineering Concepts"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Transportation Engineering Basics",
+    "type": "Specialized Course",
+    "description": "Explore the essentials of transportation engineering, including traffic flow analysis, pavement design, transportation planning, and public transit systems. Ideal for aspiring transportation engineers.",
+    "importance": "Emerging",
+    "accuracy": "Moderate",
+    "contents": [
+      "Traffic Flow Analysis",
+      "Pavement Design Principles",
+      "Transportation Planning Techniques",
+      "Public Transit Systems",
+      "Intelligent Transportation Systems"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Environmental Engineering Principles",
+    "type": "Specialized Course",
+    "description": "Discover key environmental engineering concepts such as water treatment, air pollution control, waste management, environmental impact assessment, and sustainable design practices.",
+    "importance": "Vital",
+    "accuracy": "High",
+    "contents": [
+      "Water Treatment Processes",
+      "Air Pollution Control Methods",
+      "Waste Management Strategies",
+      "Environmental Impact Assessment",
+      "Sustainable Design Practices"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Construction Management Strategies",
+    "type": "Intermediate Course",
+    "description": "Learn essential construction management techniques, including project planning, budgeting, scheduling, quality control, and safety management. Crucial for effective project execution.",
+    "importance": "Foundational",
+    "accuracy": "Moderate",
+    "contents": [
+      "Project Planning and Scheduling",
+      "Budgeting and Cost Estimation",
+      "Quality Control in Construction",
+      "Safety Management Practices",
+      "Contract Administration"
+    ]
+  }
 ]

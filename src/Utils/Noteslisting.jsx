@@ -8,10 +8,10 @@ const Noteslisting = (props) => {
         <h3>{props.note.type}</h3>
         <h1 className="text-xl font-bold pb-10">{props.note.title}</h1>
         <p className="font-semibold">{props.note.description}</p>
-        <p className="text-purple-700 py-5">{props.note.salary}</p>
+        <p className="text-purple-700 py-5">{props.note.importance}</p>
         <hr />
         <div className="flex justify-between py-5">
-            <p className="text-amber-800">{props.note.location}</p>
+            <p className="text-amber-800">{props.note.accuracy}</p>
             <Button btnstyle="p-3 rounded-lg shadow-lg bg-blue-400" btncontent="Read More"/>
         </div>
     </div>
